@@ -11,8 +11,12 @@ this moves photos taken with a timestamp into a reverse date folder tree; YY/MM/
 
 **videoise.sh**
 
-this makes videos in all the folders from the previous command which are missing
+this makes videos in all the folders made by the previous command which do not have videos already
 
 **oneoise.sh**
 
 this makes one video from all the 1pm photos
+
+**presentation**
+
+my presentation from Oggcamp 2017, unfortunately it doesn't tell the reader much
