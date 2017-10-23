@@ -35,6 +35,11 @@ do
   fi
 done
 
+# make video
+echo -e "\n---------------------------\n"
+echo "making video"
+time ffmpeg -loglevel error -r 15 -i $WD/'%*.jpg' -vf crop=3280:2464 $WD/"one_oclock_$LIST.mp4"
+
 # write out the start and finish times for record keeping
 echo -e "\nscript START:\n$START"
 echo "script FINISH"
